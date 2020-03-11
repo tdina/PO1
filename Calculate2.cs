@@ -2,7 +2,7 @@ using System;
 
 namespace PO_LAB1
 {
-    public class Calculate
+    public class Calculate2
     {
         /// <summary>
         /// 
@@ -21,7 +21,7 @@ namespace PO_LAB1
         /// <param name="n1"></param>
         /// <param name="n2"></param>
         /// <returns></returns>
-public static double Subtract(double n1, double n2)
+        public static double Subtract(double n1, double n2)
         {
             return n1 - n2;
         }
@@ -80,26 +80,52 @@ public static double Subtract(double n1, double n2)
         {
             return Math.Sqrt(n1);
         }
-/// <summary>
-/// 
-/// </summary>
-/// <param name="n1"></param>
-/// <returns></returns>
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <returns></returns>
         public static double Square(double n1)
         {
             return Math.Pow(n1, 2.0);
         }
-/// <summary>
-/// 
-/// </summary>
-/// <param name="n1"></param>
-/// <returns></returns>
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <returns></returns>
         public static double Factorial(double n1)
         {
             double f = 1;
             for (int i = 1; i <= n1; i++)
-                f *=(double)i;
+                f *= (double)i;
             return f;
         }
+
+        public static double GetSin(double n1)
+        {
+            return Math.Sin(n1);
+        }
+
+        public static double getcos(double n1)
+        {
+            return Math.Cos(n1);
+        }
+
+        //public static double gettan(double n1)
+        //{
+        //    return math.tan(n1);
+        //}
+
+        //public static double getexp(double n1)
+        //{
+        //    return math.exp(n1);
+        //}
+
+        //public static double getround(double n1)
+        //{
+        //    return math.round(n1);
+        //}
+
     }
 }
