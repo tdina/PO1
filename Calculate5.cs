@@ -2,7 +2,7 @@ using System;
 
 namespace PO_LAB1
 {
-    public class Calculate4
+    public class Calculate5
     {
         /// <summary>
         /// 
@@ -122,10 +122,10 @@ public static double Subtract(double n1, double n2)
             return Math.Exp(n1);
         }
 
-        //public static double GetRound(double n1)
-        //{
-        //    return math.round(n1);
-        //}
+        public static double GetRound(double n1)
+        {
+            return Math.Round(n1);
+        }
 
     }
 }
